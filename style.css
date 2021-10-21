@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(0, 140, 255);
+    margin: 100pt 150pt;
+    height: 60pt;
+    width: 250pt;
+    text-align: center;
+    padding-top: 3pt;
+    font-size: 50pt;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 15px 15px 10px black;
+    cursor: pointer;
+}
+
+div:active{
+    transform: translateX(5px) translateY(5px);
+    box-shadow: 5px 5px 5px black;
+    transition: 0.2s;
+}
